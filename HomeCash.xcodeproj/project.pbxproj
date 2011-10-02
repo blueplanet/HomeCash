@@ -24,6 +24,9 @@
 		3DB8F6C81438A0DF00E00975 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DB8F6C61438A0DF00E00975 /* InfoPlist.strings */; };
 		3DB8F6CA1438A0DF00E00975 /* HomeCashTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 3DB8F6C91438A0DF00E00975 /* HomeCashTests.h */; };
 		3DB8F6CC1438A0DF00E00975 /* HomeCashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8F6CB1438A0DF00E00975 /* HomeCashTests.m */; };
+		3DB8F6D8143908B300E00975 /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8F6D7143908B300E00975 /* DataStore.m */; };
+		3DB8F6D9143908B300E00975 /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8F6D7143908B300E00975 /* DataStore.m */; };
+		3DB8F6DB1439092600E00975 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB8F6DA1439092600E00975 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		3DB8F6C71438A0DF00E00975 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3DB8F6C91438A0DF00E00975 /* HomeCashTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCashTests.h; sourceTree = "<group>"; };
 		3DB8F6CB1438A0DF00E00975 /* HomeCashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCashTests.m; sourceTree = "<group>"; };
+		3DB8F6D6143908B300E00975 /* DataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStore.h; sourceTree = "<group>"; };
+		3DB8F6D7143908B300E00975 /* DataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStore.m; sourceTree = "<group>"; };
+		3DB8F6DA1439092600E00975 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB8F6DB1439092600E00975 /* CoreData.framework in Frameworks */,
 				3DB8F6991438A0DE00E00975 /* UIKit.framework in Frameworks */,
 				3DB8F69B1438A0DE00E00975 /* Foundation.framework in Frameworks */,
 				3DB8F69D1438A0DE00E00975 /* CoreGraphics.framework in Frameworks */,
@@ -108,6 +115,7 @@
 		3DB8F6971438A0DE00E00975 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3DB8F6DA1439092600E00975 /* CoreData.framework */,
 				3DB8F6981438A0DE00E00975 /* UIKit.framework */,
 				3DB8F69A1438A0DE00E00975 /* Foundation.framework */,
 				3DB8F69C1438A0DE00E00975 /* CoreGraphics.framework */,
@@ -119,6 +127,7 @@
 		3DB8F69E1438A0DE00E00975 /* HomeCash */ = {
 			isa = PBXGroup;
 			children = (
+				3DB8F6D51439087900E00975 /* Model */,
 				3DB8F6A71438A0DF00E00975 /* HomeCashAppDelegate.h */,
 				3DB8F6A81438A0DF00E00975 /* HomeCashAppDelegate.m */,
 				3DB8F6AA1438A0DF00E00975 /* MainWindow.xib */,
@@ -160,6 +169,15 @@
 				3DB8F6C61438A0DF00E00975 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DB8F6D51439087900E00975 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3DB8F6D6143908B300E00975 /* DataStore.h */,
+				3DB8F6D7143908B300E00975 /* DataStore.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +292,7 @@
 				3DB8F6A91438A0DF00E00975 /* HomeCashAppDelegate.m in Sources */,
 				3DB8F6AF1438A0DF00E00975 /* DetailViewController.m in Sources */,
 				3DB8F6B51438A0DF00E00975 /* RootViewController.m in Sources */,
+				3DB8F6D8143908B300E00975 /* DataStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DB8F6CC1438A0DF00E00975 /* HomeCashTests.m in Sources */,
+				3DB8F6D9143908B300E00975 /* DataStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
