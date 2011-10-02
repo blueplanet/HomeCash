@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DB8F6991438A0DE00E00975 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB8F6981438A0DE00E00975 /* UIKit.framework */; };
+		3DB8F69B1438A0DE00E00975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB8F69A1438A0DE00E00975 /* Foundation.framework */; };
+		3DB8F69D1438A0DE00E00975 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB8F69C1438A0DE00E00975 /* CoreGraphics.framework */; };
+		3DB8F6A31438A0DF00E00975 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DB8F6A11438A0DF00E00975 /* InfoPlist.strings */; };
+		3DB8F6A51438A0DF00E00975 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8F6A41438A0DF00E00975 /* main.m */; };
+		3DB8F6A91438A0DF00E00975 /* HomeCashAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8F6A81438A0DF00E00975 /* HomeCashAppDelegate.m */; };
+		3DB8F6AC1438A0DF00E00975 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DB8F6AA1438A0DF00E00975 /* MainWindow.xib */; };
+		3DB8F6AF1438A0DF00E00975 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8F6AE1438A0DF00E00975 /* DetailViewController.m */; };
+		3DB8F6B21438A0DF00E00975 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DB8F6B01438A0DF00E00975 /* DetailView.xib */; };
+		3DB8F6B51438A0DF00E00975 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8F6B41438A0DF00E00975 /* RootViewController.m */; };
+		3DB8F6BD1438A0DF00E00975 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB8F6BC1438A0DF00E00975 /* SenTestingKit.framework */; };
+		3DB8F6BE1438A0DF00E00975 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB8F6981438A0DE00E00975 /* UIKit.framework */; };
+		3DB8F6BF1438A0DF00E00975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB8F69A1438A0DE00E00975 /* Foundation.framework */; };
+		3DB8F6C01438A0DF00E00975 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB8F69C1438A0DE00E00975 /* CoreGraphics.framework */; };
+		3DB8F6C81438A0DF00E00975 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DB8F6C61438A0DF00E00975 /* InfoPlist.strings */; };
+		3DB8F6CA1438A0DF00E00975 /* HomeCashTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 3DB8F6C91438A0DF00E00975 /* HomeCashTests.h */; };
+		3DB8F6CC1438A0DF00E00975 /* HomeCashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8F6CB1438A0DF00E00975 /* HomeCashTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DB8F6C11438A0DF00E00975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DB8F68B1438A0DE00E00975 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DB8F6931438A0DE00E00975;
+			remoteInfo = HomeCash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DB8F6941438A0DE00E00975 /* HomeCash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeCash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB8F6981438A0DE00E00975 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3DB8F69A1438A0DE00E00975 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3DB8F69C1438A0DE00E00975 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3DB8F6A01438A0DE00E00975 /* HomeCash-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeCash-Info.plist"; sourceTree = "<group>"; };
+		3DB8F6A21438A0DF00E00975 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DB8F6A41438A0DF00E00975 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DB8F6A61438A0DF00E00975 /* HomeCash-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HomeCash-Prefix.pch"; sourceTree = "<group>"; };
+		3DB8F6A71438A0DF00E00975 /* HomeCashAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCashAppDelegate.h; sourceTree = "<group>"; };
+		3DB8F6A81438A0DF00E00975 /* HomeCashAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCashAppDelegate.m; sourceTree = "<group>"; };
+		3DB8F6AB1438A0DF00E00975 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		3DB8F6AD1438A0DF00E00975 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3DB8F6AE1438A0DF00E00975 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3DB8F6B11438A0DF00E00975 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailView.xib; sourceTree = "<group>"; };
+		3DB8F6B31438A0DF00E00975 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3DB8F6B41438A0DF00E00975 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3DB8F6BB1438A0DF00E00975 /* HomeCashTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeCashTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB8F6BC1438A0DF00E00975 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3DB8F6C51438A0DF00E00975 /* HomeCashTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeCashTests-Info.plist"; sourceTree = "<group>"; };
+		3DB8F6C71438A0DF00E00975 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DB8F6C91438A0DF00E00975 /* HomeCashTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCashTests.h; sourceTree = "<group>"; };
+		3DB8F6CB1438A0DF00E00975 /* HomeCashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCashTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DB8F6911438A0DE00E00975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB8F6991438A0DE00E00975 /* UIKit.framework in Frameworks */,
+				3DB8F69B1438A0DE00E00975 /* Foundation.framework in Frameworks */,
+				3DB8F69D1438A0DE00E00975 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB8F6B71438A0DF00E00975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB8F6BD1438A0DF00E00975 /* SenTestingKit.framework in Frameworks */,
+				3DB8F6BE1438A0DF00E00975 /* UIKit.framework in Frameworks */,
+				3DB8F6BF1438A0DF00E00975 /* Foundation.framework in Frameworks */,
+				3DB8F6C01438A0DF00E00975 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DB8F6891438A0DE00E00975 = {
+			isa = PBXGroup;
+			children = (
+				3DB8F69E1438A0DE00E00975 /* HomeCash */,
+				3DB8F6C31438A0DF00E00975 /* HomeCashTests */,
+				3DB8F6971438A0DE00E00975 /* Frameworks */,
+				3DB8F6951438A0DE00E00975 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DB8F6951438A0DE00E00975 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DB8F6941438A0DE00E00975 /* HomeCash.app */,
+				3DB8F6BB1438A0DF00E00975 /* HomeCashTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DB8F6971438A0DE00E00975 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DB8F6981438A0DE00E00975 /* UIKit.framework */,
+				3DB8F69A1438A0DE00E00975 /* Foundation.framework */,
+				3DB8F69C1438A0DE00E00975 /* CoreGraphics.framework */,
+				3DB8F6BC1438A0DF00E00975 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DB8F69E1438A0DE00E00975 /* HomeCash */ = {
+			isa = PBXGroup;
+			children = (
+				3DB8F6A71438A0DF00E00975 /* HomeCashAppDelegate.h */,
+				3DB8F6A81438A0DF00E00975 /* HomeCashAppDelegate.m */,
+				3DB8F6AA1438A0DF00E00975 /* MainWindow.xib */,
+				3DB8F6AD1438A0DF00E00975 /* DetailViewController.h */,
+				3DB8F6AE1438A0DF00E00975 /* DetailViewController.m */,
+				3DB8F6B01438A0DF00E00975 /* DetailView.xib */,
+				3DB8F6B31438A0DF00E00975 /* RootViewController.h */,
+				3DB8F6B41438A0DF00E00975 /* RootViewController.m */,
+				3DB8F69F1438A0DE00E00975 /* Supporting Files */,
+			);
+			path = HomeCash;
+			sourceTree = "<group>";
+		};
+		3DB8F69F1438A0DE00E00975 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DB8F6A01438A0DE00E00975 /* HomeCash-Info.plist */,
+				3DB8F6A11438A0DF00E00975 /* InfoPlist.strings */,
+				3DB8F6A41438A0DF00E00975 /* main.m */,
+				3DB8F6A61438A0DF00E00975 /* HomeCash-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DB8F6C31438A0DF00E00975 /* HomeCashTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DB8F6C91438A0DF00E00975 /* HomeCashTests.h */,
+				3DB8F6CB1438A0DF00E00975 /* HomeCashTests.m */,
+				3DB8F6C41438A0DF00E00975 /* Supporting Files */,
+			);
+			path = HomeCashTests;
+			sourceTree = "<group>";
+		};
+		3DB8F6C41438A0DF00E00975 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DB8F6C51438A0DF00E00975 /* HomeCashTests-Info.plist */,
+				3DB8F6C61438A0DF00E00975 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DB8F6931438A0DE00E00975 /* HomeCash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB8F6CF1438A0DF00E00975 /* Build configuration list for PBXNativeTarget "HomeCash" */;
+			buildPhases = (
+				3DB8F6901438A0DE00E00975 /* Sources */,
+				3DB8F6911438A0DE00E00975 /* Frameworks */,
+				3DB8F6921438A0DE00E00975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeCash;
+			productName = HomeCash;
+			productReference = 3DB8F6941438A0DE00E00975 /* HomeCash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DB8F6BA1438A0DF00E00975 /* HomeCashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB8F6D21438A0DF00E00975 /* Build configuration list for PBXNativeTarget "HomeCashTests" */;
+			buildPhases = (
+				3DB8F6B61438A0DF00E00975 /* Sources */,
+				3DB8F6B71438A0DF00E00975 /* Frameworks */,
+				3DB8F6B81438A0DF00E00975 /* Resources */,
+				3DB8F6B91438A0DF00E00975 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DB8F6C21438A0DF00E00975 /* PBXTargetDependency */,
+			);
+			name = HomeCashTests;
+			productName = HomeCashTests;
+			productReference = 3DB8F6BB1438A0DF00E00975 /* HomeCashTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DB8F68B1438A0DE00E00975 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = MySource;
+			};
+			buildConfigurationList = 3DB8F68E1438A0DE00E00975 /* Build configuration list for PBXProject "HomeCash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3DB8F6891438A0DE00E00975;
+			productRefGroup = 3DB8F6951438A0DE00E00975 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DB8F6931438A0DE00E00975 /* HomeCash */,
+				3DB8F6BA1438A0DF00E00975 /* HomeCashTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DB8F6921438A0DE00E00975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB8F6A31438A0DF00E00975 /* InfoPlist.strings in Resources */,
+				3DB8F6AC1438A0DF00E00975 /* MainWindow.xib in Resources */,
+				3DB8F6B21438A0DF00E00975 /* DetailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB8F6B81438A0DF00E00975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB8F6C81438A0DF00E00975 /* InfoPlist.strings in Resources */,
+				3DB8F6CA1438A0DF00E00975 /* HomeCashTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DB8F6B91438A0DF00E00975 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DB8F6901438A0DE00E00975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB8F6A51438A0DF00E00975 /* main.m in Sources */,
+				3DB8F6A91438A0DF00E00975 /* HomeCashAppDelegate.m in Sources */,
+				3DB8F6AF1438A0DF00E00975 /* DetailViewController.m in Sources */,
+				3DB8F6B51438A0DF00E00975 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB8F6B61438A0DF00E00975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB8F6CC1438A0DF00E00975 /* HomeCashTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DB8F6C21438A0DF00E00975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DB8F6931438A0DE00E00975 /* HomeCash */;
+			targetProxy = 3DB8F6C11438A0DF00E00975 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DB8F6A11438A0DF00E00975 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB8F6A21438A0DF00E00975 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3DB8F6AA1438A0DF00E00975 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB8F6AB1438A0DF00E00975 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		3DB8F6B01438A0DF00E00975 /* DetailView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB8F6B11438A0DF00E00975 /* en */,
+			);
+			name = DetailView.xib;
+			sourceTree = "<group>";
+		};
+		3DB8F6C61438A0DF00E00975 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB8F6C71438A0DF00E00975 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DB8F6CD1438A0DF00E00975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3DB8F6CE1438A0DF00E00975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DB8F6D01438A0DF00E00975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeCash/HomeCash-Prefix.pch";
+				INFOPLIST_FILE = "HomeCash/HomeCash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3DB8F6D11438A0DF00E00975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeCash/HomeCash-Prefix.pch";
+				INFOPLIST_FILE = "HomeCash/HomeCash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3DB8F6D31438A0DF00E00975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HomeCash.app/HomeCash";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeCash/HomeCash-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HomeCashTests/HomeCashTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3DB8F6D41438A0DF00E00975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HomeCash.app/HomeCash";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomeCash/HomeCash-Prefix.pch";
+				INFOPLIST_FILE = "HomeCashTests/HomeCashTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DB8F68E1438A0DE00E00975 /* Build configuration list for PBXProject "HomeCash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB8F6CD1438A0DF00E00975 /* Debug */,
+				3DB8F6CE1438A0DF00E00975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB8F6CF1438A0DF00E00975 /* Build configuration list for PBXNativeTarget "HomeCash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB8F6D01438A0DF00E00975 /* Debug */,
+				3DB8F6D11438A0DF00E00975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DB8F6D21438A0DF00E00975 /* Build configuration list for PBXNativeTarget "HomeCashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB8F6D31438A0DF00E00975 /* Debug */,
+				3DB8F6D41438A0DF00E00975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DB8F68B1438A0DE00E00975 /* Project object */;
+}
