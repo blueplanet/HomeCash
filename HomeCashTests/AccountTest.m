@@ -12,7 +12,7 @@
 
 - (void)testAddAccount {
     NSManagedObjectContext *moc = [DataStore sharedContext];
-    Account *newAccount = [NSEntityDescription insertNewObjectForEntityForName:@"Account" inManagedObjectContext:moc];
+    Account *newAccount = [NSEntityDescription insertNewObjectForEntityForName:[Account entityName] inManagedObjectContext:moc];
     
     newAccount.name = @"現金";
     

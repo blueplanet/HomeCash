@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 
+#import "NSManagedObjectExt.h"
+
 #import "Account.h"
 
 @interface DataStore : NSObject 

@@ -29,6 +29,7 @@
 		3DB8F6D9143908B300E00975 /* DataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB8F6D7143908B300E00975 /* DataStore.m */; };
 		3DB8F6DB1439092600E00975 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB8F6DA1439092600E00975 /* CoreData.framework */; };
 		3DFE5FA51439F5A900CF513C /* AccountTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE5FA41439F5A900CF513C /* AccountTest.m */; };
+		3DFE5FD1143A639300CF513C /* NSManagedObjectExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE5FD0143A639300CF513C /* NSManagedObjectExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		3DB8F6DA1439092600E00975 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3DFE5FA31439F5A900CF513C /* AccountTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTest.h; sourceTree = "<group>"; };
 		3DFE5FA41439F5A900CF513C /* AccountTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTest.m; sourceTree = "<group>"; };
+		3DFE5FCF143A639300CF513C /* NSManagedObjectExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSManagedObjectExt.h; sourceTree = "<group>"; };
+		3DFE5FD0143A639300CF513C /* NSManagedObjectExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSManagedObjectExt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +206,8 @@
 		3DFE5FAE143A5B9600CF513C /* Ext */ = {
 			isa = PBXGroup;
 			children = (
+				3DFE5FCF143A639300CF513C /* NSManagedObjectExt.h */,
+				3DFE5FD0143A639300CF513C /* NSManagedObjectExt.m */,
 			);
 			name = Ext;
 			sourceTree = "<group>";
@@ -321,6 +326,7 @@
 				3DB8F6D8143908B300E00975 /* DataStore.m in Sources */,
 				3D4154B81439125D00BE490E /* HomeCash.xcdatamodeld in Sources */,
 				3D4154BC1439146F00BE490E /* Account.m in Sources */,
+				3DFE5FD1143A639300CF513C /* NSManagedObjectExt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
