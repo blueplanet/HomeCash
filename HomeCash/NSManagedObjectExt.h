@@ -13,4 +13,7 @@
 
 + (NSString *)entityName;
 
++ (NSArray *)findAllWithCondition: (NSPredicate *)predicate managedObjectContext:(NSManagedObjectContext *)managedObjectContext;
++ (id)firstWithCondition: (NSPredicate *)predicate managedObjectContext:(NSManagedObjectContext *)managedObjectContext;
+
 @end
