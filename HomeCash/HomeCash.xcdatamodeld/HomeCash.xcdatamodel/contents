@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="562" systemVersion="11B2118" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="Account" representedClassName="Account">
-        <attribute name="balance" optional="YES" attributeType="Float" defaultValueString="0.0"/>
         <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <relationship name="credit_journals" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Journal" inverseName="credit" inverseEntity="Journal"/>
+        <relationship name="debit_journals" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Journal" inverseName="debit" inverseEntity="Journal"/>
+    </entity>
+    <entity name="Journal">
+        <attribute name="amount" optional="YES" attributeType="Float" defaultValueString="0.0"/>
+        <attribute name="date" optional="YES" attributeType="Date"/>
+        <attribute name="memo" optional="YES" attributeType="String"/>
+        <relationship name="credit" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Account" inverseName="credit_journals" inverseEntity="Account"/>
+        <relationship name="debit" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Account" inverseName="debit_journals" inverseEntity="Account"/>
     </entity>
     <elements>
-        <element name="Account" positionX="-216" positionY="-99" width="128" height="75"/>
+        <element name="Account" positionX="-216" positionY="-99" width="128" height="105"/>
+        <element name="Journal" positionX="160" positionY="192" width="128" height="120"/>
     </elements>
 </model>

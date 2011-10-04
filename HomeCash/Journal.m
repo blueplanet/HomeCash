@@ -1,19 +1,20 @@
 //
-//  Account.m
+//  Journal.m
 //  HomeCash
 //
 //  Created by Wakusei Aoi on 11/10/05.
 //  Copyright (c) 2011年 MySource. All rights reserved.
 //
 
-#import "Account.h"
 #import "Journal.h"
+#import "Account.h"
 
 
-@implementation Account
-@dynamic name;
-@dynamic type;
-@dynamic debit_journals;
-@dynamic credit_journals;
+@implementation Journal
+@dynamic date;
+@dynamic amount;
+@dynamic memo;
+@dynamic debit;
+@dynamic credit;
 
 @end
