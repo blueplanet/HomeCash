@@ -2,7 +2,7 @@
 //  HomeCashAppDelegate.h
 //  HomeCash
 //
-//  Created by wakusei aoi on 11/10/02.
+//  Created by Wakusei Aoi on 11/10/02.
 //  Copyright 2011年 MySource. All rights reserved.
 //
 
