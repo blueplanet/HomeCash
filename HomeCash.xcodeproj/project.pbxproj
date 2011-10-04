@@ -31,6 +31,7 @@
 		3DFE5FD1143A639300CF513C /* NSManagedObjectExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE5FD0143A639300CF513C /* NSManagedObjectExt.m */; };
 		3DFE5FE9143BAD7300CF513C /* Journal.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE5FE8143BAD7300CF513C /* Journal.m */; };
 		3DFE5FED143BAD7300CF513C /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE5FEC143BAD7300CF513C /* Account.m */; };
+		3DFE5FF0143BB1F800CF513C /* AccountExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE5FEF143BB1F800CF513C /* AccountExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,8 @@
 		3DFE5FE8143BAD7300CF513C /* Journal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Journal.m; sourceTree = "<group>"; };
 		3DFE5FEB143BAD7300CF513C /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
 		3DFE5FEC143BAD7300CF513C /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		3DFE5FEE143BB1F800CF513C /* AccountExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountExt.h; sourceTree = "<group>"; };
+		3DFE5FEF143BB1F800CF513C /* AccountExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountExt.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +216,8 @@
 			children = (
 				3DFE5FCF143A639300CF513C /* NSManagedObjectExt.h */,
 				3DFE5FD0143A639300CF513C /* NSManagedObjectExt.m */,
+				3DFE5FEE143BB1F800CF513C /* AccountExt.h */,
+				3DFE5FEF143BB1F800CF513C /* AccountExt.m */,
 			);
 			name = Ext;
 			sourceTree = "<group>";
@@ -333,6 +338,7 @@
 				3DFE5FD1143A639300CF513C /* NSManagedObjectExt.m in Sources */,
 				3DFE5FE9143BAD7300CF513C /* Journal.m in Sources */,
 				3DFE5FED143BAD7300CF513C /* Account.m in Sources */,
+				3DFE5FF0143BB1F800CF513C /* AccountExt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

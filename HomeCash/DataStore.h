@@ -12,6 +12,8 @@
 #import "NSManagedObjectExt.h"
 
 #import "Account.h"
+#import "AccountExt.h"
+#import "Journal.h"
 
 @interface DataStore : NSObject 
 

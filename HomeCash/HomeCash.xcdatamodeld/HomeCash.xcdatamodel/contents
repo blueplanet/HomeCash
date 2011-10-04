@@ -6,7 +6,7 @@
         <relationship name="credit_journals" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Journal" inverseName="credit" inverseEntity="Journal"/>
         <relationship name="debit_journals" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Journal" inverseName="debit" inverseEntity="Journal"/>
     </entity>
-    <entity name="Journal">
+    <entity name="Journal" representedClassName="Journal">
         <attribute name="amount" optional="YES" attributeType="Float" defaultValueString="0.0"/>
         <attribute name="date" optional="YES" attributeType="Date"/>
         <attribute name="memo" optional="YES" attributeType="String"/>
@@ -14,7 +14,7 @@
         <relationship name="debit" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Account" inverseName="debit_journals" inverseEntity="Account"/>
     </entity>
     <elements>
-        <element name="Account" positionX="-216" positionY="-99" width="128" height="105"/>
-        <element name="Journal" positionX="160" positionY="192" width="128" height="120"/>
+        <element name="Account" positionX="-216" positionY="-99" width="128" height="75"/>
+        <element name="Journal" positionX="-47" positionY="-12" width="128" height="120"/>
     </elements>
 </model>

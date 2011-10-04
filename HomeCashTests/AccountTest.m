@@ -14,6 +14,7 @@
     NSManagedObjectContext *moc = [DataStore sharedContext];
     Account *newAccount = [NSEntityDescription insertNewObjectForEntityForName:[Account entityName] inManagedObjectContext:moc];
     
+    newAccount.type = kAccountTypeAssets;
     newAccount.name = @"当座";
     [DataStore save];
 }
