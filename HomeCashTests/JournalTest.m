@@ -38,6 +38,9 @@
 }
 
 - (void)testBaseProperty {
+    NSUInteger cashCount = [[cash_ debit_journals] count];
+    NSUInteger salesCount = [[sales_ credit_journals] count];
+    
     NSManagedObjectContext *moc = [DataStore sharedContext];
     Journal *new = [NSEntityDescription insertNewObjectForEntityForName:[Journal entityName] inManagedObjectContext:moc];
     
@@ -47,6 +50,8 @@
     new.date = [NSDate new];
     
     STAssertTrue([DataStore save], @"正常保存");
+    STAssertEquals(cashCount + 1, [[cash_ debit_journals] count], @"借方勘定の仕訳数は1個増える");
+    STAssertEquals(salesCount + 1, [[sales_ credit_journals] count], @"貸方勘定の仕訳数は1個増える");
 }
 
 @end
