@@ -13,8 +13,8 @@ typedef enum {
     kAccountTypeAssets = 0,     // 資産
     kAccountTypeLiabilities,    // 負債
     kAccountTypeEquity,         // 資本(純資産)
-    kAccountRevenue,            // 収益
-    kAccountExpense             // 費用
+    kAccountTypeRevenue,        // 収益
+    kAccountTypeExpense         // 費用
 } AccountType;
 
 @interface Account (Ext)
