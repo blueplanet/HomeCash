@@ -8,7 +8,7 @@
     </entity>
     <entity name="Journal" representedClassName="Journal">
         <attribute name="amount" optional="YES" attributeType="Float" defaultValueString="0.0"/>
-        <attribute name="date" optional="YES" attributeType="Date"/>
+        <attribute name="date" attributeType="Date" indexed="YES"/>
         <attribute name="memo" optional="YES" attributeType="String"/>
         <relationship name="credit" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Account" inverseName="credit_journals" inverseEntity="Account"/>
         <relationship name="debit" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Account" inverseName="debit_journals" inverseEntity="Account"/>
