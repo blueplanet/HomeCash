@@ -38,4 +38,14 @@
     STAssertTrue([DataStore save], @"更新は正常");
 }
 
+- (void)testDelete {
+    NSManagedObjectContext *moc = [DataStore sharedContext];
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"name = %@" argumentArray:[NSArray arrayWithObject:@"当座"]];
+    
+    Account *bank = (Account *)[Account firstWithCondition:predicate managedObjectContext:moc];
+    [moc deleteObject:bank];
+    
+    STAssertTrue([DataStore save], @"削除は正常");
+}
+
 @end
