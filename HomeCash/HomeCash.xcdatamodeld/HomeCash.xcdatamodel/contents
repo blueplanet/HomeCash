@@ -2,6 +2,7 @@
 <model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="562" systemVersion="11B2118" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="Account" representedClassName="Account">
         <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="sortNo" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
         <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
         <relationship name="credit_journals" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Journal" inverseName="credit" inverseEntity="Journal"/>
         <relationship name="debit_journals" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Journal" inverseName="debit" inverseEntity="Journal"/>
@@ -14,7 +15,7 @@
         <relationship name="debit" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Account" inverseName="debit_journals" inverseEntity="Account"/>
     </entity>
     <elements>
-        <element name="Account" positionX="-216" positionY="-99" width="128" height="75"/>
+        <element name="Account" positionX="-216" positionY="-99" width="128" height="120"/>
         <element name="Journal" positionX="-47" positionY="-12" width="128" height="120"/>
     </elements>
 </model>

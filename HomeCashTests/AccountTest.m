@@ -16,6 +16,7 @@
     
     newAccount.type = kAccountTypeAssets;
     newAccount.name = @"当座";
+    newAccount.sortNo = [NSNumber numberWithInt:1];
     [DataStore save];
 }
 
@@ -23,7 +24,9 @@
     NSManagedObjectContext *moc = [DataStore sharedContext];
     Account *newAccount = [NSEntityDescription insertNewObjectForEntityForName:[Account entityName] inManagedObjectContext:moc];
     
+    newAccount.type = kAccountTypeAssets;
     newAccount.name = @"現金";
+    newAccount.sortNo = [NSNumber numberWithInt:2];
     
     STAssertTrue([DataStore save], @"新規追加は正常");
 }
@@ -34,6 +37,7 @@
     
     Account *bank = (Account *)[Account firstWithCondition:predicate managedObjectContext:moc];
     bank.name = @"当座預金";
+    bank.sortNo = [NSNumber numberWithInt:3];
     
     STAssertTrue([DataStore save], @"更新は正常");
 }
